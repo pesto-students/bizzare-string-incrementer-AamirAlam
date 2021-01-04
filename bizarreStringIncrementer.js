@@ -9,7 +9,7 @@ function bizarreStringIncrementer(){
     }
     const reg = /\d+/g
     const extractedNumbers = input.match(reg)
-    console.log(extractedNumbers)
+    // console.log(extractedNumbers)
     let numberIncremented = 1;
     
     if (extractedNumbers !== null){
@@ -33,3 +33,7 @@ function bizarreStringIncrementer(){
 
 
 }
+
+console.log(bizarreStringIncrementer('f99oo'))
+
+module.exports =  {bizarreStringIncrementer};
